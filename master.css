@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/01.png);
+    background-size: cover;
+}
+
+.fr_set{
+    width: 1100px;  
+    height: 100vh;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.fr01{
+    width: 1100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-around;  
+}
+.fr02{
+    width: 1100px;
+    height: 100px;
+    position: relative;
+    top: 680px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*--네비게이션--*/
+nav{
+    position: fixed;
+    right: 0;
+    top: 69px;  
+    width: 297px;
+    height: 451px;
+}
+ul{
+    width: 297px;
+    height: 451px;
+    margin-left: auto;
+    display: block;
+    justify-content: space-between;
+}
+
+li{}
+.bt01{padding-left: 50px;}
+.bt02{text-align: right;}
+.bt03{text-align: right;}
+.bt04{text-align: right;}
+
+
+/*--sub01--*/
+section{
+    width: 100%;
+    overflow: hidden;
+}
+.s_b00{width: 100%;}
+
+.s_b01{height: 1080px;
+text-align: center;
+}
+
+.s_b02{
+    height: 544px;
+    text-align: center;}
+
+.s_b02_01{
+    width: 703px;
+    height: 68.16px;
+}
+
+.s_b03{height: 1547px;
+    text-align: center;
+    padding-top: 331px;
+}
+
+.s_b04{height: 833px;
+text-align: center;}
+
+.s_b04_01{
+    width: 1920px;
+    height: 944.24px;
+    margin: 0 auto;
+    margin-top: 160.8px;
+}
+
+.s_ft{
+    width: 100%;
+    height: 212.09px;
+    text-align: center;
+    margin-top: 92.9px;
+    background-image: url('img/104_bg.png');
+}
+
+/*--sub02--*/
+section{
+    text-align: center;
+}
+
+.ccc{
+    margin-top: 329.2px;
+}
+
+.ddd{
+    margin-top: 329.2px;
+}
+
+.eee{
+    margin-top: 365px;
+}
+
+.fff{
+    width: 100%;
+    height: 212.09px;
+    text-align: center;
+    margin-top: 586px;
+    background-image: url(img/222.png);
+}
+
+
+
+/*--sub03--*/
+
+.b{
+    margin-top: 92px;
+}
+
+.c{
+    margin-top: 331px;
+}
+
+.d{
+    margin-top: 331px;
+}
+
+.e{
+    margin-top: 490.8px;
+    width: 100%;
+    height: 236.19px;
+    text-align: center;
+    background-image: url(img/333.png);
+}
