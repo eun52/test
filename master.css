@@ -59,6 +59,12 @@ li{}
 .bt03{text-align: right;}
 .bt04{text-align: right;}
 
+.menubox{
+    border: 0px solid red;
+    display: inline-block;
+    text-align: right;
+}
+
 
 /*--sub01--*/
 section{
@@ -131,6 +137,8 @@ section{
 
 
 /*--sub03--*/
+
+
 
 .b{
     margin-top: 92px;
